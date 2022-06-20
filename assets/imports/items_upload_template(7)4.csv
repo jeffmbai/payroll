@@ -1,0 +1,5 @@
+Item Name, Category, Brand, Unit, Color, Tax Type, Buying Price, Marked Price, SKU, Opening Stock, Reorder Level, Narrative
+Item A,Category A,Coca Cola,Crates,Red,VAT,1000,1200,U388389,10,5,Test Narrative
+Item B,Category B,Pepsi,Crates,Orange,VAT,800,1000,U388390,15,10,Test Narrative
+Item C,Category A,Menengai,Kgs,White,Excempted,1200,1500,U388391,20,15,Test Narrative
+Item D,Category F,Brand Y,Boxes,Black,VAT,500,550,U388392,10,5,Test Narrative

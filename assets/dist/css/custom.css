@@ -1,0 +1,43 @@
+input[type=radio] {
+  border: 0px;
+  width: 18px !important;
+  height: 18px !important;
+}
+
+input[type=checkbox] {
+  border: 0px;
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.row-rg {
+  border-right: 1px solid #cccccc !important;
+}
+
+.money2 {
+  border: 0 !important;
+  outline: 0 !important;
+  background-color: unset !important;
+
+  font-size: 20px !important;
+  font-weight: 900 !important;
+  text-decoration: underline;
+}
+
+.money2:focus {
+  outline: none !important;
+  background-color: unset !important;
+}
+
+.btnapp-rg {
+  font-size: 15px !important;
+  font-weight: bolder !important;
+}
+
+.bg-orangered {
+  background-color: #ff7700 !important;
+}
+
+.fa-dot-circle-o {
+  color: #00817a !important;
+}

@@ -1,0 +1,4 @@
+brand_id, brand_model_id, package_type, tax_type, ship_number, buying_price, mark_up_percentage, capacity, color, imei_one, imei_two, barcode, narrative
+1, 2, Open Box, VAT, SHIP001, 10000, 20, 2, Red, IMEI28282892, , 77726272, test description one
+2, 4, Original, Excempted, SHIP001, 25000, 15, 4, Black, IM144282892, , 85895272, test description two
+1, 2, Open Box, VAT, SHIP002, 5000, 20, 2, Blue, IMEI773282892, IME28883833, 777545212, test description three

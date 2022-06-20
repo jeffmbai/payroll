@@ -1,0 +1,21 @@
+SELECT 
+
+orders.order_id, orders.org_id, orders.bill_no, orders.customer_name, orders.customer_address,
+orders.customer_phone, orders.date_time, orders.service_charge, orders.tax_charge, 
+orders.net_amount, orders.discount, orders.paid_status, orders.entity_id, 
+orders.date_modified, orders.time_stamp
+
+FROM orders WHERE 1
+
+
+SELECT 
+
+orders.date_time, SUM(orders.service_charge) as service_charge, 
+SUM(orders.tax_charge) as tax_charge, SUM(orders.net_amount) as net_amount, 
+SUM(orders.discount) as discount, orders.paid_status
+
+FROM orders 
+
+WHERE date_time >= '2018-10-22' AND date_time <= '2019-11-21' AND orders.org_id = '' AND orders.paid_status = 1
+
+GROUP BY MONTH(date_time)
